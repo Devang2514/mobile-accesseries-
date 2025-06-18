@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Vivid Accessories Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 font-sans antialiased">
+
+    <!-- Sticky Header -->
+    <header class="bg-white shadow-md px-4 py-3 fixed w-full z-30 top-0">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="text-2xl font-bold text-indigo-600">MyCoverShop</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-indigo-500">Home</a>
+                <a href="#" class="hover:text-indigo-500">Shop</a>
+                <a href="#" class="hover:text-indigo-500">Customize</a>
+                <a href="#" class="hover:text-indigo-500">Contact</a>
+            </div>
+            <div class="flex space-x-4">
+                <button class="text-gray-600 hover:text-indigo-500"><i class="fas fa-search"></i></button>
+                <button class="text-gray-600 hover:text-indigo-500"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="pt-20 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 text-center py-16">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white">Customize Your Mobile Covers</h1>
+        <p class="mt-4 text-lg text-white">Shop 350+ models – starting at ₹99</p>
+        <a href="#"
+            class="mt-6 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg">Start
+            Designing</a>
+    </section>
+
+    <!-- Categories Grid -->
+    <section class="py-12 px-4 max-w-6xl mx-auto grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+        <!-- Example Category Card -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition">
+            <img src="iphone.jpg" alt="iPhone Covers" class="w-full h-50 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-indigo-600">iPhone Covers</h3>
+            </div>
+        </div>
+        <!-- Repeat for other categories -->
+    </section>
+
+    <!-- Product Banner -->
+    <div class="bg-white py-12 shadow-inner">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-800">Special Prints</h2>
+                <p class="mt-2 text-gray-600">Unique designs crafted by our artists</p>
+            </div>
+            <button class="mt-4 md:mt-0 bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg">View
+                Collection</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 bg-gray-100 py-8 text-center text-gray-600">
+        &copy; 2025 MyCoverShop. All rights reserved.
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a2d9f1c9b0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
